@@ -3,25 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042B611A23A6F3DF00FF03D0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B611923A6F3DF00FF03D0 /* WelcomeViewController.swift */; };
 		049D4BF523A5874F00434D08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D4BF423A5874F00434D08 /* AppDelegate.swift */; };
-		049D4BF723A5874F00434D08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D4BF623A5874F00434D08 /* ViewController.swift */; };
 		049D4BFA23A5874F00434D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049D4BF823A5874F00434D08 /* Main.storyboard */; };
 		049D4BFC23A5875000434D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049D4BFB23A5875000434D08 /* Assets.xcassets */; };
 		049D4BFF23A5875000434D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049D4BFD23A5875000434D08 /* LaunchScreen.storyboard */; };
+		049D4C0723A5892000434D08 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D4C0623A5892000434D08 /* DataModel.swift */; };
+		04E17EB523A58C49000F73C2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E17EB423A58C49000F73C2 /* MapViewController.swift */; };
+		04E17EB723A59034000F73C2 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E17EB623A59034000F73C2 /* ResultsViewController.swift */; };
+		04E17EB923A5921C000F73C2 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E17EB823A5921C000F73C2 /* SummaryViewController.swift */; };
+		4CF8997CFC2FD626D7D54679 /* Pods_JoggerBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17309CD9E65F1677D7E30DA9 /* Pods_JoggerBuddy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042B611923A6F3DF00FF03D0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		049D4BF123A5874F00434D08 /* JoggerBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoggerBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049D4BF423A5874F00434D08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		049D4BF623A5874F00434D08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		049D4BF923A5874F00434D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		049D4BFB23A5875000434D08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049D4BFE23A5875000434D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049D4C0023A5875000434D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049D4C0623A5892000434D08 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		04E17EB423A58C49000F73C2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		04E17EB623A59034000F73C2 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		04E17EB823A5921C000F73C2 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		17309CD9E65F1677D7E30DA9 /* Pods_JoggerBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JoggerBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C78DA681EC5FD07CE730A08 /* Pods-JoggerBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoggerBuddy.debug.xcconfig"; path = "Target Support Files/Pods-JoggerBuddy/Pods-JoggerBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		87AA77C86EE66634850B8D85 /* Pods-JoggerBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoggerBuddy.release.xcconfig"; path = "Target Support Files/Pods-JoggerBuddy/Pods-JoggerBuddy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF8997CFC2FD626D7D54679 /* Pods_JoggerBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				049D4BF323A5874F00434D08 /* JoggerBuddy */,
 				049D4BF223A5874F00434D08 /* Products */,
+				4B7FE7159F1B311ABCB21BA4 /* Pods */,
+				3D9F495D4FB73D1FDB1AE985 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +70,34 @@
 			isa = PBXGroup;
 			children = (
 				049D4BF423A5874F00434D08 /* AppDelegate.swift */,
-				049D4BF623A5874F00434D08 /* ViewController.swift */,
+				049D4C0623A5892000434D08 /* DataModel.swift */,
+				042B611923A6F3DF00FF03D0 /* WelcomeViewController.swift */,
+				04E17EB423A58C49000F73C2 /* MapViewController.swift */,
+				04E17EB623A59034000F73C2 /* ResultsViewController.swift */,
+				04E17EB823A5921C000F73C2 /* SummaryViewController.swift */,
 				049D4BF823A5874F00434D08 /* Main.storyboard */,
 				049D4BFB23A5875000434D08 /* Assets.xcassets */,
 				049D4BFD23A5875000434D08 /* LaunchScreen.storyboard */,
 				049D4C0023A5875000434D08 /* Info.plist */,
 			);
 			path = JoggerBuddy;
+			sourceTree = "<group>";
+		};
+		3D9F495D4FB73D1FDB1AE985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17309CD9E65F1677D7E30DA9 /* Pods_JoggerBuddy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B7FE7159F1B311ABCB21BA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C78DA681EC5FD07CE730A08 /* Pods-JoggerBuddy.debug.xcconfig */,
+				87AA77C86EE66634850B8D85 /* Pods-JoggerBuddy.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 049D4C0323A5875000434D08 /* Build configuration list for PBXNativeTarget "JoggerBuddy" */;
 			buildPhases = (
+				27AA829544616533F33E2C11 /* [CP] Check Pods Manifest.lock */,
 				049D4BED23A5874F00434D08 /* Sources */,
 				049D4BEE23A5874F00434D08 /* Frameworks */,
 				049D4BEF23A5874F00434D08 /* Resources */,
+				9877794035418F6732C05A5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +168,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27AA829544616533F33E2C11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JoggerBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9877794035418F6732C05A5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JoggerBuddy/Pods-JoggerBuddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JoggerBuddy/Pods-JoggerBuddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JoggerBuddy/Pods-JoggerBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		049D4BED23A5874F00434D08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049D4BF723A5874F00434D08 /* ViewController.swift in Sources */,
 				049D4BF523A5874F00434D08 /* AppDelegate.swift in Sources */,
+				04E17EB523A58C49000F73C2 /* MapViewController.swift in Sources */,
+				049D4C0723A5892000434D08 /* DataModel.swift in Sources */,
+				042B611A23A6F3DF00FF03D0 /* WelcomeViewController.swift in Sources */,
+				04E17EB723A59034000F73C2 /* ResultsViewController.swift in Sources */,
+				04E17EB923A5921C000F73C2 /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +364,7 @@
 		};
 		049D4C0423A5875000434D08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C78DA681EC5FD07CE730A08 /* Pods-JoggerBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +383,7 @@
 		};
 		049D4C0523A5875000434D08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87AA77C86EE66634850B8D85 /* Pods-JoggerBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
